@@ -1,11 +1,19 @@
 #include <stdio.h>
+
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
-    for (int i = 0; i <= 9; i++)
+	int single_digit;
+
+	for (single_digit = 0; single_digit < 10; single_digit++)
 	{
-		printf("%d", i);
+		printf("%d", single_digit);
 	}
 	printf("\n");
 
-    return 0;
+	return (0);
 }
